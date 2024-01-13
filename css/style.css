@@ -1,0 +1,161 @@
+/* reset  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a,
+img,
+time,
+span,
+input,
+button {
+  display: block;
+}
+
+img {
+  height: auto;
+}
+
+input,
+button {
+  background: none;
+  border: none;
+  font: inherit;
+}
+
+input {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* reused  */
+.space {
+  margin-top: 50px;
+}
+
+/* header  */
+a.nav-link {
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+  transition: 0.9s ease;
+}
+.nav-item:hover a.nav-link {
+  border-bottom: 3px solid rgba(0, 0, 0, 1);
+}
+.nav-item {
+  margin-right: 10px;
+}
+.hero {
+  background-image: url(../img/slide1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  margin-bottom: 30px;
+}
+.hero .hero-content {
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  left: 35%;
+}
+.hero-content a.btn {
+  background: #000;
+  padding: 12px 24px;
+  border: transparent;
+  color: #ccc;
+}
+.hero-content a.btn:hover {
+  color: #fff;
+}
+
+/* xbox  */
+.xbox {
+  background-image: url(../img/xbox.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.xbox-content {
+  position: absolute;
+}
+.xbox .xbox-content {
+  position: absolute;
+  text-align: start;
+  top: 15%;
+  left: 5%;
+  max-width: 40%;
+}
+.xbox-content a.btn {
+  background: #000;
+  padding: 12px 24px;
+  border: transparent;
+  color: #ccc;
+}
+.xbox-content a.btn:hover {
+  color: #fff;
+}
+
+/* carbon  */
+.carbon {
+  background-image: url(../img/carbon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  position: relative;
+}
+.carbon-content {
+  position: absolute;
+}
+.carbon .carbon-content {
+  position: absolute;
+  text-align: start;
+  top: 35%;
+  left: 5%;
+  max-width: 40%;
+}
+.carbon-content a.btn {
+  background: #ccc;
+  padding: 12px 24px;
+  border: transparent;
+  color: #000;
+  display: inline-block;
+}
+.carbon-content a.btn:hover {
+  color: #000;
+  background-color: #fff;
+}
+.btn-social-icon a.btn-square {
+  height: 38px;
+  width: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #ccc;
+  color: #000;
+}
+.btn-social-icon a.btn-square:hover{
+    background-color: #fff;
+    border-color: #000;
+}
+
+
+
+
+/* footer  */
